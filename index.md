@@ -1,3 +1,0 @@
-# Blakwurm
-
-Blog? Blog.
