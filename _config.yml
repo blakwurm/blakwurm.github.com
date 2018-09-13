@@ -1,3 +1,5 @@
 theme: jekyll-theme-modernist
 title: Blakwurm Entertainment
 description: We make things awesome!
+github:
+  is_project_page: false
