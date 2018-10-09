@@ -141,7 +141,7 @@ a::after {
 	text-align: inherit;
 }
 
-.sitetitle a::before, .sitetitle a::after, .posttitle a::before, .posttitle a::after {
+.sitetitle a::before, .sitetitle a::after, a.titlecontinue::before, a.titlecontinue::after {
 	content: none;
 }
 
