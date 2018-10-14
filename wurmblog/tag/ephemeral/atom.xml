@@ -11,17 +11,6 @@
   <subtitle type="text">Software and Software Accessories</subtitle>
   <generator>PyAtom</generator>
   <entry xml:base="https://blakwurm.com/wurmblog/tag/ephemeral/atom.xml">
-    <title type="text">Krieg! Or... Not?</title>
-    <id>https://blakwurm.com/wurmblog/post/2018-02-12/KriegOrNot</id>
-    <updated>2018-02-12T00:00:00Z</updated>
-    <link href="https://blakwurm.com/wurmblog/post/2018-02-12/KriegOrNot" />
-    <author>
-      <name>Alex</name>
-    </author>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><span class="mdrender"><p>War. A horrible word. A terrible word.</p>
-<p>Why do we love it?  </p></span></div></content>
-  </entry>
-  <entry xml:base="https://blakwurm.com/wurmblog/tag/ephemeral/atom.xml">
     <title type="text">My best thing</title>
     <id>https://blakwurm.com/wurmblog/post/2018-03-23/Mybestthing</id>
     <updated>2018-03-23T00:00:00Z</updated>
@@ -31,5 +20,16 @@
     </author>
     <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><span class="mdrender">
 <p>My best function. My best class. My best code.  </p></span></div></content>
+  </entry>
+  <entry xml:base="https://blakwurm.com/wurmblog/tag/ephemeral/atom.xml">
+    <title type="text">Krieg! Or... Not?</title>
+    <id>https://blakwurm.com/wurmblog/post/2018-02-12/KriegOrNot</id>
+    <updated>2018-02-12T00:00:00Z</updated>
+    <link href="https://blakwurm.com/wurmblog/post/2018-02-12/KriegOrNot" />
+    <author>
+      <name>Alex</name>
+    </author>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><span class="mdrender"><p>War. A horrible word. A terrible word.</p>
+<p>Why do we love it?  </p></span></div></content>
   </entry>
 </feed>
