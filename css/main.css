@@ -226,8 +226,8 @@ a::after {
         min-width: 90vw;
     }
 
-    body {
-        background-image: url('/img/dragon.svg');
+    body {   
+        background-image: url(/img/dragon.svg);
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat;
@@ -270,13 +270,13 @@ a::after {
     .pagetitle, .pagesubtitle, .postdate {
     }
     .pagetitle {
-        grid-column: 1/10;
+        grid-column: 2/10;
         grid-row: 10;
         background: none;
         font-size: 2em;
     }
     .pagesubtitle, .postdate {
-        grid-column: 2/10;
+        grid-column: 3/10;
         grid-row: 11;
         background: none;
     }
@@ -308,8 +308,8 @@ a::after {
         grid-row: 13/14;
         /* border: 3px dotted var(--color-med-low); */
         border: none;
-        column-width: 350px;
-        column-count: auto;
+        max-width: 500px;
+        margin: 0 auto;
         min-height: 200px;
     }
     .pagecontent * {
