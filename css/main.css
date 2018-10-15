@@ -235,17 +235,18 @@ a::after {
         display: grid;
         grid-template-columns: 1.3fr repeat(3, 1fr) 1.3fr repeat(3, 1fr) 1.3fr;
         grid-template-rows: 
-        9vw 10vh 70vh auto;
+        4vw 7vw 10vh 35vmax 35vh auto;
         border: none;
         margin: none;
         overflow-x: hidden;
     }
 
     .sitetitle, .sitetagline {
-        grid-row: 2;
         background: none;
         --size-factor: 1;
         font-size: calc(var(--size-factor) * 2vw);
+        color: black;
+        text-shadow: none;
     }
     .sitetitle, .sitetagline, .pagetitle, .pagesubtitle, .postdate {
         border: none;
@@ -253,18 +254,17 @@ a::after {
     .sitetitle, .pagetitle {
     }
     .sitetitle {
-        text-align: right;
-        vertical-align: middle;
-        grid-column: 2/5;
         grid-row: 2;
+        text-align: left;
+        vertical-align: middle;
+        grid-column: 3/7;
         background: none;
-        padding-top: 6vw;
         --size-factor: 3;
     }
     .sitetagline {
-        grid-column: 6/9;
+        grid-row: 3;
+        grid-column: 4/9;
         text-align: left;
-        padding-top: 7vw;
         --size-factor: 1.4;
     }
     .pagetitle, .pagesubtitle, .postdate {
@@ -281,9 +281,10 @@ a::after {
         background: none;
     }
     .navbar {
-        grid-column: 3/10;
-        grid-row: 8/13;
-        writing-mode: vertical-rl;
+        grid-column: 1/10;
+        grid-row: 5;
+        width: 100%;
+        text-align: center;
         background: none;
         z-index: 10000;
     }
@@ -292,6 +293,11 @@ a::after {
     }
     .navbar ul li {
         background: none;
+    }
+    .navbar ul li a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
     }
     .copyright {
         grid-column: 3/8;
@@ -302,7 +308,7 @@ a::after {
         grid-row: 13/14;
         /* border: 3px dotted var(--color-med-low); */
         border: none;
-        column-width: 400px;
+        column-width: 350px;
         column-count: auto;
         min-height: 200px;
     }
@@ -310,13 +316,18 @@ a::after {
         page-break-inside: avoid;
         break-inside: avoid;
     }
+    .pagecontent p {
+        margin: 9px;
+    }
     body .tags, .taglist {
         grid-row: 16;
         grid-column: 1/8;
         background: none;
     }
     .previouspost, .nextpost {
-        grid-row: 15
+        grid-row: 15;
+        margin: 5px;
+
     }
     .previouspost {
         grid-column: 1/5;
