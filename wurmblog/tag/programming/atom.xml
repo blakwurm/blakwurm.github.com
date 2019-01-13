@@ -19,44 +19,17 @@
       <name>Alex</name>
     </author>
     <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><span class="mdrender">
-<p>A few months ago, I decided to make a game. It would be a simple game. Something<br/>
-small, and hopefully enjoyable to play. Of course, it would be pleasant to make.</p>
-<p>I decided to make this game in JavaScript, because what could be simpler and<br/>
-easier to make and access then a web page you just load up. No complicated build<br/>
-process, no invasive tooling. Just ES6, and a library between my code and the browser. </p>
+<p>A few months ago, I decided to make a game. It would be a simple game. Something small, and hopefully enjoyable to play. Of course, it would be pleasant to make. I decided to make this game in JavaScript, because what could be simpler and easier to make and access then a web page you just load up. No complicated build process, no invasive tooling. Just ES6, and a library between my code and the browser. </p>
 <p>I'm okay with being wrong, but... not like this.</p>
 <p>To say I was disappointed would be an understatement.</p>
 <h2>The Absolute State of this Place</h2>
-<p>Sincere kudos to the folks who have come before me in this place. Its been a hard<br/>
-road. JavaScript is in a good place right now, but that's a very <em>recent</em> thing.<br/>
-For years, the web has been a quagmire of compatability issues and framework hell.<br/>
-Performance was terrible. The language was terrible. The tools you had to<br/>
-use to make the language less terrible were <em>also</em> terrible! ES2015, the spec that<br/>
-came in and made everything <em>not quite</em> as a terrible, is only<br/>
-just over three years old (in January 2019). Four-year-olds aren't known for their<br/>
-engineering skills, so I think its safe to say that everyone alive who can<br/>
-possible write code with the new spec was alive well before it hit browsers.</p>
-<p>It makes sense, then, that many existing tools would use older idioms. "If it ain't<br/>
-broke don't fix it", and it would be absurd to ask everyone to update<br/>
-their old, working, tested, battle-hardened code just so that newbies<br/>
-could fiddle around with some new language features.</p>
-<p>What boggled my mind was that I couldn't find a single engine that was written<br/>
-with ES6 modules natively. Plenty were written using parts of ES6 syntax, and several would<br/>
-certainly be compatable with my code out-of-the-box, but none relied on what I<br/>
-feel is the most exciting new feature of newer JavaScript. Either there were no<br/>
-new systems, or the ones that people are making are still targeting IE. I mean,<br/>
-that's fine, but... seriously? No-one?</p>
-<p>Y'know, that might have been okay. Maybe. Except all the engines that I did find<br/>
-were either so huge that my graphic assets would be bigger, or they were<br/>
-unmaintaned, or they were designed with such a limited scope that I'd have to<br/>
-write most of the engine myself anyways. </p>
+<p>Sincere kudos to the folks who have come before me in this place. Its been a hard road. JavaScript is in a good place right now, but that's a very <em>recent</em> thing. For years, the web has been a quagmire of compatability issues and framework hell. Performance was terrible. The language was terrible. The tools you had to use to make the language less terrible were <em>also</em> terrible! ES2015, the spec that came in and made everything <em>not quite</em> as a terrible, is only just over three years old (in January 2019). Four-year-olds aren't known for their engineering skills, so I think its safe to say that everyone alive who can possible write code with the new spec was alive well before it hit browsers.</p>
+<p>It makes sense, then, that many existing tools would use older idioms. "If it ain't broke don't fix it", and it would be absurd to ask everyone to update their old, working, tested, battle-hardened code just so that newbies could fiddle around with some new language features.</p>
+<p>What boggled my mind was that I couldn't find a single engine that was written with ES6 modules natively. Plenty were written using parts of ES6 syntax, and several would certainly be compatable with my code out-of-the-box, but none relied on what I feel is the most exciting new feature of newer JavaScript. Either there were no new systems, or the ones that people are making are still targeting IE. I mean, that's fine, but... seriously? No-one?</p>
+<p>Y'know, that might have been okay. Maybe. Except all the engines that I did find were either so huge that my graphic assets would be bigger, or they were unmaintaned, or they were designed with such a limited scope that I'd have to write most of the engine myself anyways. </p>
 <h2>What to do?</h2>
-<p>There's something demented in the hearts of Software Developers. Something sick.<br/>
-Something that must be reigned in at all costs. Something for which we must<br/>
-grow discipline.</p>
-<p>We cannot see a hole without <em>aching</em> to fill it. Worse, we cannot see someone<br/>
-else's hole-filler without exploding with hubris! "I can do it better" has been<br/>
-the cause of millions of sleepless nights amongst us who code.</p>
+<p>There's something demented in the hearts of Software Developers. Something sick. Something that must be reigned in at all costs. Something for which we must grow discipline.</p>
+<p>We cannot see a hole without <em>aching</em> to fill it. Worse, we cannot see someone else's hole-filler without exploding with hubris! "I can do it better" has been the cause of millions of sleepless nights amongst us who code.</p>
 <p>It is this innate and insane drive that immediately brought me to my next step.</p>
 <p>I'd make the game engine that I wish existed.</p>
 <p>And thus the journey begins...  </p></span></div></content>
