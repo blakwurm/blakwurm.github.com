@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">WurmBlog</title>
-  <id>https://blakwurm.com/wurmblog/tag/programming/atom.xml</id>
+  <id>https://blakwurm.com/wurmblog/tag/javascript/atom.xml</id>
   <updated>2019-01-12T00:00:00Z</updated>
-  <link href="wurmblog/tag/programming" />
-  <link href="https://blakwurm.com/wurmblog/tag/programming/atom.xml" rel="self" />
+  <link href="wurmblog/tag/javascript" />
+  <link href="https://blakwurm.com/wurmblog/tag/javascript/atom.xml" rel="self" />
   <author>
     <name>Alex Chythlook</name>
   </author>
   <subtitle type="text">Software and Software Accessories</subtitle>
   <generator>PyAtom</generator>
-  <entry xml:base="https://blakwurm.com/wurmblog/tag/programming/atom.xml">
+  <entry xml:base="https://blakwurm.com/wurmblog/tag/javascript/atom.xml">
     <title type="text">Journey of a thousand keystrokes</title>
     <id>https://blakwurm.com/wurmblog/post/2019-01-12/Journeyofathousandkeystrokes</id>
     <updated>2019-01-12T00:00:00Z</updated>
